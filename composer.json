@@ -1,0 +1,17 @@
+{
+    "name": "windowspro/mod6",
+    "version": "1.0.0",
+    "autoload": {
+        "psr-4": {
+             "App\\": "App/",
+            "Livro\\": "Lib/Livro/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ercilia Maria Coelho de Carvalho",
+            "email": "erciliacarvalho2@gmail.com"
+        }
+    ],
+    "require": {}
+}
