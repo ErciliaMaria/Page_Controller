@@ -7,7 +7,7 @@ class Pessoa extends Record
 {
     const TABLENAME = 'pessoas';
 
-        protected $data;
+    protected $data;
 
     public function __get($prop)
     {
