@@ -3,7 +3,6 @@ namespace Livro\Database;
 
 use Livro\Database\Criteria;
 use Livro\Database\Query;
-use App\Model\Pessoa;
 
 class Repository extends Query
 {
