@@ -1,9 +1,12 @@
 <?php
-
-use App\Control\PessoaControl;
-
 require __DIR__ . '/vendor/autoload.php';
 
-$pagina = new PessoaControl;
-
-$pagina->listar();
+if($_GET)
+{
+    $class = $_GET['class'];
+    if(class_exists($class))
+    {
+        $pagina = new $class;
+        $pagina->show();
+    }
+}
